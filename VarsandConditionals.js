@@ -36,8 +36,20 @@ if (jonSnowHealth <= jamieLannisterAttack - jonSnowDefense){
     console.log(`Jon Snow has ${jonSnowHealth} health remaining`)
 }
 
-if((jonSnowHealth + 50 >= 100){
+if((jonSnowHealth + 50) >= 100){
     jonSnowHealth = 100
 } else {
     jonSnowHealth += 50
+}
+
+let coinLandsHead = false
+/*
+if (coinLandsHead = true) {
+    console.log("The fight continues!")
+} else {
+    console.log("Jon has withdrawn to his domicile.")
+}
+*/
+if (coinLandsHeads !== false) {
+    console.log("The Fight Continues!")
 }
